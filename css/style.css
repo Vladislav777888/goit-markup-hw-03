@@ -246,6 +246,16 @@ address {
   margin-left: 30px;
 }
 
+.list-advantages .title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .list-advantages .text {
   margin-bottom: 0;
 
@@ -282,9 +292,12 @@ address {
   background-color: var(--third-background-color);
 }
 
-.list-team .text {
-  margin-bottom: 30px;
+.card-menu-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+.list-team .text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -317,7 +330,6 @@ address {
 
 .list-team .item-img {
   display: block;
-  margin-bottom: 30px;
 }
 
 /* Футер */
